@@ -10,3 +10,7 @@ https://www.youtube.com/watch?v=NtKgnFKectw&t=2713s
 https://github.com/mpous/MING-hiveMQ4
 https://gist.github.com/Paraphraser/c9db25d131dd4c09848ffb353b69038f 
 https://www.youtube.com/watch?v=hiVcgUdjy0A 
+https://www.youtube.com/watch?v=JdV4x925au0
+
+influxdb tutorial
+https://www.influxdata.com/blog/prototyping-iot-with-influxdb-cloud-2-0/
