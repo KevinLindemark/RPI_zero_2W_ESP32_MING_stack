@@ -1,0 +1,12 @@
+make account here:
+https://dashboard.balena-cloud.com
+install this to fleet device:
+https://github.com/mpous/ming
+
+# example info on how to work with the MING stack:
+https://www.slideshare.net/influxdata/build-an-edgetocloud-solution-with-the-ming-stack
+https://www.influxdata.com/resources/build-an-edge-to-cloud-solution-with-the-ming-stack/
+https://www.youtube.com/watch?v=NtKgnFKectw&t=2713s
+https://github.com/mpous/MING-hiveMQ4
+https://gist.github.com/Paraphraser/c9db25d131dd4c09848ffb353b69038f 
+https://www.youtube.com/watch?v=hiVcgUdjy0A 
