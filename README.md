@@ -36,7 +36,13 @@ WiFi Connect lytter på port 80 i tilfælde af at der ikke er WiFi connectivity 
 
 For at kunne modtage data fra MQTT skal der oprettes og konfigureres en **MQTT IN** node til det. Her angives IP adresse og portnummeret tilsvarende den som blev vist i balena cloud.
 
-![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/44e77d59-717f-4e22-a40f-40220961a40b)
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/1304f28f-8410-4127-929b-9cf2eccac2ff)
+
+
+tilføj efterfølgende en **debug** node og forbind den til **MQTT IN** node. Og tryk derefter på deploy knappen:
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/50b70ab8-9772-4760-9641-f3a596f30fc6)
+
+
 
 
 Når der bruges influxdb i en docker container:
