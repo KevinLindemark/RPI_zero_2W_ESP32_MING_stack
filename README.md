@@ -40,10 +40,12 @@ For at kunne modtage data fra MQTT skal der oprettes og konfigureres en **MQTT I
 
 
 tilføj efterfølgende en **debug** node og forbind den til **MQTT IN** node. Og tryk derefter på deploy knappen:
+
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/50b70ab8-9772-4760-9641-f3a596f30fc6)
 
+Upload fileksemple fra micropython mappen i dette repository til ESP32 (forudsætter at der er et Educaboard med LMT84 tilsluttet) og opdater **ssid** **password** og **mqtt_server** variablerne så den kan logge på samme accespoint som raspberry pi og indsæt raspberry pi's ip addresse som **mqtt_server**. hvis ESP32 forbindes korrekt til netværket og mqtt brokeren på raspberry pi, kan man vælge debug ikonet og der bør man se data fra ESP32 som blev send over MQTT.
 
-
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/f1702b1e-757a-4c59-a14f-1fb87b6fec64)
 
 Når der bruges influxdb i en docker container:
 Hvis node-red og influxdb containers er på samme maskine kan man ikke tilgå dem genne localhost (fordi hosten af contianeren ikke kører influxdb selv). Man skal derimod tilgå den genmmen en reference til selve containerens navn.
