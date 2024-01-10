@@ -1,3 +1,10 @@
+## OBS DENNE TUTORIAL ER UNDER UDVIKLING OG BILLEDER SKAL OPDATERES SÅ DER ANVENDES SAMME RASPBERRY PI
+TODO
+* opdater billeder
+* tilføj hvordan influxdb database oprettes
+* hvordan mqtt sendes til influx
+* hvordan data fra influx vises på grafana
+
 # RPI_zero_2W_ESP32_MING_stack
 
 lav en bruger her:
