@@ -25,9 +25,13 @@ både brugernavn og password til tjenesterne er **balena**
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/8529915f-0373-4f63-a520-8a7cc18b31af)
 
 Mosquitto MQTT broker lytter på port 1883 for MQtt besked publicationer.
+
 InfluxDB lytter på port 8086 og giver en time series database til sensor data opbevaring.
+
 NodeRed lytter på port 80 og anvendes med en nem grafisk interface til at parse, analysere, opbevare og viderestille sensor data beskeder.
+
 Grafana lytter på port 8080 og tilbyder et datavisualiseringsmiljø til sensor data.
+
 WiFi Connect lytter på port 80 i tilfælde af at der ikke er WiFi connectivity tilgængelig.
 
 Når der bruges influxdb i en docker container:
