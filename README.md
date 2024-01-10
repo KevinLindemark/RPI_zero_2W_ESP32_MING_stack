@@ -1,5 +1,7 @@
 # RPI_zero_2W_ESP32_MING_stack
 
+lav en bruger her:
+https://dashboard.balena-cloud.com
 
 Lav fleet på balenaCloud (create new fleet) og vælg raspberry pi Zero w2 og hak wifi og ethernet af under network connection og indtast SSID og PASSWORD og tryk Flash knappen og så download balena etcher for at flashe Balena OS til Raspberry Pi (Zero W 2)
 
@@ -20,6 +22,6 @@ https://github.com/mpous/ming
 Derefter opdateres rpi zero til at anvende ming stacken
 
 
-when using influxdb on a docker container:
-If your node-red and influxdb containers are in the same machine, you can't reference it using localhost (because the host of the container is not running an influxdb itself). You need to reference it using the name of the container.
-Example: influxdb:8086 instead of localhost:8086.
+Når der bruges unfluxdb i en docker container:
+Hvis node-red og influxdb containers er på samme maskine kan man ikke tilgå dem genne localhost (fordi hosten af contianeren ikke kører influxdb selv). Man skal derimod tilgå den genmmen en reference til selve containerens navn.
+Eksempel: **influxdb:8086** i stedet for **localhost:8086**
