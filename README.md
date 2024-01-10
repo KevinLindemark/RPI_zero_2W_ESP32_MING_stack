@@ -34,6 +34,11 @@ både brugernavn og password til tjenesterne er **balena**
 
 WiFi Connect lytter på port 80 i tilfælde af at der ikke er WiFi connectivity tilgængelig.
 
+For at kunne modtage data fra MQTT skal der oprettes og konfigureres en **MQTT IN** node til det. Her angives IP adresse og portnummeret tilsvarende den som blev vist i balena cloud.
+
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/44e77d59-717f-4e22-a40f-40220961a40b)
+
+
 Når der bruges influxdb i en docker container:
 Hvis node-red og influxdb containers er på samme maskine kan man ikke tilgå dem genne localhost (fordi hosten af contianeren ikke kører influxdb selv). Man skal derimod tilgå den genmmen en reference til selve containerens navn.
 Eksempel: **influxdb:8086** i stedet for **localhost:8086**
