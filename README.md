@@ -22,6 +22,9 @@ https://github.com/mpous/ming
 Derefter opdateres raspberry pi til at anvende ming stacken. på balenacloud kan man se de lokale IP adresser til de forskelige docker tjenester der køres og tilgå dem ved at angive adressen i en browsers URL felt.
 både brugernavn og password til tjenesterne er **balena**
 
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/8529915f-0373-4f63-a520-8a7cc18b31af)
+
+
 
 Når der bruges influxdb i en docker container:
 Hvis node-red og influxdb containers er på samme maskine kan man ikke tilgå dem genne localhost (fordi hosten af contianeren ikke kører influxdb selv). Man skal derimod tilgå den genmmen en reference til selve containerens navn.
