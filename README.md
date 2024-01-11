@@ -67,7 +67,7 @@ Upload fileksemple fra micropython mappen i dette repository til ESP32 (forudsæ
 
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/05fb46ed-c78f-47d5-b9ab-cb6726946cac)
 
-
+se dette link for mere info om influxdb opsætningen: https://gist.github.com/Paraphraser/c9db25d131dd4c09848ffb353b69038f 
 
 
 **En ekstra ting man bør være opmærksom på**:
