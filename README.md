@@ -65,7 +65,8 @@ Upload fileksemple fra micropython mappen i dette repository til ESP32 (forudsæ
 
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/4a77975a-95b8-4c6a-ba91-c3f74ef73c9d)
 
-![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/b66b69cc-3e3b-4ee4-b83e-575017f58601)
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/05fb46ed-c78f-47d5-b9ab-cb6726946cac)
+
 
 
 
