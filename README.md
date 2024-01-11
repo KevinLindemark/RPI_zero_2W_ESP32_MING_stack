@@ -54,6 +54,21 @@ Upload fileksemple fra micropython mappen i dette repository til ESP32 (forudsæ
 
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/f1702b1e-757a-4c59-a14f-1fb87b6fec64)
 
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/47fe4b9e-efc4-433b-979d-54a781db4159)
+
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/a8ad16a3-33ad-4479-b66e-d43383e2cb17)
+
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/59588633-0d8b-422c-9939-c3fcafdb471b)
+
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/b21698c4-1df0-48c5-816f-08f342188889)
+
+
+
+
+
+
+**En ekstra ting man bør være opmærksom på**:
+
 Når der bruges influxdb i en docker container:
 Hvis node-red og influxdb containers er på samme maskine kan man ikke tilgå dem genne localhost (fordi hosten af contianeren ikke kører influxdb selv). Man skal derimod tilgå den genmmen en reference til selve containerens navn.
 Eksempel: **influxdb:8086** i stedet for **localhost:8086**
