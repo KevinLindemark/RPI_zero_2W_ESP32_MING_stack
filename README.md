@@ -79,12 +79,12 @@ Efterfølgende kan man åbne en influxdb shell i Balena cloud:
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/0af718ad-e36e-4ecc-9042-ccee8750e263)
 
 først skal man oprette en database ved at skrive:
-´´´
+```
 $ influx
 > CREATE DATABASE koji
 > USE koji
 > select * from temp
-´´´
+```
 hvor koji i dette tilfælde er databasen navn. Navnet kan man selv vælge, og det bør være meningsfyldt for hvad databasen bruges til.
 
 Fra influxdb shell kan man bruge følgende kommandoer for at verificere at der kommer data i databasen:
