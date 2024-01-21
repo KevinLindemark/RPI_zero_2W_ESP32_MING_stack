@@ -90,6 +90,7 @@ Fra influxdb shell kan man verificere at der kommer data i databasen, som her er
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/4f94079d-5675-4d3c-b85c-164e93a95cb1)
 
 Åben grafana i browser på den lokale IP adresse som kan findes i balena cloud og på port 8080 i mit tilfælde er addressen **http://192.168.1.128:8080/** men din vil højest sansynligt være en anden. Første gang grafana anvendes skal man oprette bruger og password (jeg anvder **admin admin** til test men i produktion skal der angives et stærkt password!). for at konfigurere grafana til at vise data fra influxdb skal man i venstre menu vælge tandhjulet og **data sources**
+I URL feltet skrives **influxdb:8086** som er Docker container navnet på influxdb instansen. Ligeledes skal man også angive navnet på influxdb databasen som blev oprettet tidligere, som i dette eksempel er **koji**
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/d08d7100-6225-4e92-8fb8-26c7d0012468)
 
 For at få vist data i grafana skal man lave et dashboard. For at gøre dette vælges ikonet med 4 firkanter i menuen:
