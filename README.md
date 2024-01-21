@@ -73,6 +73,15 @@ se dette link for mere info om influxdb opsætningen: https://gist.github.com/Pa
 
 For at forbinde og lægge data i influxdb skal der oprettes en node til dette. Når man bruger Docker skal containernavnet angives som host:
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/50b21102-b67a-4e15-a40a-c3442ec30a98)
+Husk at tryk deploy når denne node er oprettet. 
+
+Efterfølgende kan man åbne en influxdb shell i Balena cloud:
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/0af718ad-e36e-4ecc-9042-ccee8750e263)
+
+først skal man oprette en database ved at skrive **CREATE DATABASE koji**, hvor koji i dette tilfælde er databasen navn. Navnet kan man selv vælge, og det bør være meningsfyldt for hvad databasen bruges til.
+
+Fra influxdb shell kan man bruge følgende kommandoer for at verificere at der kommer data i databasen:
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/559d63fa-d4be-4f1c-ba48-3546bbbaae27)
 
 
 **En ekstra ting man bør være opmærksom på**:
