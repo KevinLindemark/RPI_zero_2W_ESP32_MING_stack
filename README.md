@@ -87,7 +87,7 @@ $ influx
 ```
 hvor koji i dette tilfælde er databasen navn. Navnet kan man selv vælge, og det bør være meningsfyldt for hvad databasen bruges til.
 
-Fra influxdb shell kan man bruge følgende kommandoer for at verificere at der kommer data i databasen:
+Fra influxdb shell kan man verificere at der kommer data i databasen, som her er fra en temperatursensor på en ESP32 der sende data til MQTT brokeren:
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/4f94079d-5675-4d3c-b85c-164e93a95cb1)
 
 
