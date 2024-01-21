@@ -94,6 +94,9 @@ Fra influxdb shell kan man verificere at der kommer data i databasen, som her er
 
 For at få vist data i grafana skal man lave et dashboard. For at gøre dette vælges ikonet med 4 firkanter i menuen:
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/13e2c72d-5849-436c-bdbe-f96d8015551f)
+vælg add panel i øverste menu, og vælg derefter symbolet med en blyant/pen under query select og indsæt egen query:
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/7629c3c1-23eb-43ea-a37b-06eab23375de)
+
 
 Man kan lave en query:
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/2fd8261c-57f3-4caf-aff0-8567c308d730)
