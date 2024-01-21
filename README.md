@@ -71,6 +71,8 @@ se dette link for mere info om influxdb opsætningen: https://gist.github.com/Pa
 
 ![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/9716fd47-19e1-454f-88f1-0437be607f26)
 
+For at forbinde og lægge data i influxdb skal der oprettes en node til dette. Når man bruger Docker skal containernavnet angives som host:
+![image](https://github.com/KevinLindemark/RPI_zero_2W_ESP32_MING_stack/assets/58036568/50b21102-b67a-4e15-a40a-c3442ec30a98)
 
 
 **En ekstra ting man bør være opmærksom på**:
