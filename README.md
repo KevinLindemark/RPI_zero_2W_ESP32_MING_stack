@@ -1,9 +1,8 @@
 ## OBS DENNE TUTORIAL ER UNDER UDVIKLING OG BILLEDER SKAL OPDATERES SÅ DER ANVENDES SAMME RASPBERRY PI
 TODO
 * opdater billeder
-* tilføj hvordan influxdb database oprettes
-* hvordan mqtt sendes til influx
-* hvordan data fra influx vises på grafana
+* opdatér så mqtt sendes som JSON https://gist.github.com/Paraphraser/c9db25d131dd4c09848ffb353b69038f (eller test anden måde at få flere forskellige datapunkter sendt)
+* ESP32 koden har ofte problemer med at forbinde til MQTT broker (dette skal fixes)
 
 # RPI_zero_2W_ESP32_MING_stack
 
